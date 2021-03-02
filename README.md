@@ -6,7 +6,7 @@ Given an input file that describes a network architecture with nodes and edges d
 
 ### Required packages
 
-I included in this repo the file `environment.yml`, which specifies the version of each package in the conda environment that I used for the development of the application. In particular, I installed `pandas`, `xlrd` and `openpyxl`to be able to process an Excel file using python. Make sure to install these packages (`pip install pandas xlrd openpyxl`) or, alternatively, create a new conda environment by running `conda env create -f environment.yml`.
+I included in this repo the file `environment.yml`, which specifies the version of each package in the conda environment that I used for the development of the application. In particular, I installed `pandas`, `xlrd` and `openpyxl` to be able to process an Excel file using python. Make sure to install these packages (`pip install pandas xlrd openpyxl`), alternatively, create a new conda environment by running `conda env create -f environment.yml`.
 
 ### Start the application
 
