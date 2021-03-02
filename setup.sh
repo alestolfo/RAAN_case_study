@@ -1,11 +1,20 @@
+#!/bin/bash
 
 if [ "$1" == "" ]
 then
   echo "No input file specified. Aborting."
-  exit -1
+  exit 1
 fi
 echo "Converting input file into JSON..."
 python jsonify.py $1
+
+if [ $? != 0 ]
+then
+  echo "Python script failed. Aborting."
+  exit 1
+fi
+
+echo "...done"
 
 if [ "$2" == "" ]
 then
