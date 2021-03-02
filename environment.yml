@@ -1,9 +1,8 @@
-name: roche
+name: raan
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - pip
   - numpy
   - pandas
   - xlrd
